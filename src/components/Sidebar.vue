@@ -3,8 +3,8 @@
     <!-- you will need to add a little "X" button next to the logo in order to close it though -->
     <div class="w-1/2 md:w-1/3 lg:w-64 fixed md:top-0 md:left-0 h-screen lg:block bg-mfc-dark-gray border-r z-30 transition duration-500 ease-in-out" :class="sideBarOpen ? '' : 'hidden'" id="main-nav">
 
-          <a href="/" class="w-full h-20 flex flex-col px-4 justify-center items-center mb-8">
-            <img src="../assets/logo.png" alt="logo-MFC" style="width: 55px">
+          <a href="/" class="w-full h-20 flex flex-col px-4 justify-center items-center mb-4">
+            <img src="../assets/full-logo.png" alt="logo-MFC" style="width: 180px">
           </a>
 
           <div class="mb-4 px-4">

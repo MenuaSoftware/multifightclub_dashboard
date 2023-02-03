@@ -12,6 +12,7 @@
     --purple-light: #8751fa;
     --orange: #ff5a1f;
     --green: #32c48c;
+    overflow-x: hidden;
 }
 
 body {
