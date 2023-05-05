@@ -4,6 +4,7 @@ import Router from 'vue-router'
 
 import Dashboard from '@/components/Dashboard'
 import DashboardHome from '@/pages/Home'
+import Login from '@/pages/Login'
 
 import store from './store'
 
@@ -15,12 +16,13 @@ Vue.config.productionTip = false
 Vue.use(Router)
 
 const routes = [
-  { path: '/', redirect: { name: 'DashboardHome' } },
+  { path: '/', redirect: { name: 'Login' } },
   { path: '/dashboard', component: Dashboard, children: [
       { path: '/', redirect: { name: 'DashboardHome' } },
       { path: 'home', name: 'DashboardHome', component: DashboardHome }
     ]
-  }
+  },
+  { path: '/login', name: 'Login', component: Login },
 ]
 
 const router = new Router({
@@ -33,4 +35,3 @@ new Vue({
   router,
   store
 }).$mount('#app')
-

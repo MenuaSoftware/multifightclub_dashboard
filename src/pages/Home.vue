@@ -55,7 +55,7 @@
             </div>
 
             <div class="text-gray-700 ml-6 leading-6">
-              <p class="font-semibold text-2xl">1,906</p>
+              <p class="font-semibold text-2xl">0</p>
               <p class="text-sm text-gray-600">All Members</p>
             </div>
 
